@@ -10,7 +10,7 @@ var masthead,
 
 pictures = [
     "<figure><img src=\"./img/1.JPG\" alt=\"1\"></figure>",
-    "<figure><img src=\"./img/2.jpg\" alt=\"2\"></figure>",
+    "<figure><img src=\"./img/2.JPG\" alt=\"2\"></figure>",
     "<figure><img src=\"./img/3.jpg\" alt=\"3\"></figure>",
     "<figure><img src=\"./img/4.jpg\" alt=\"4\"></figure>"
 ];
