@@ -1,0 +1,182 @@
+/* Analogous Colors:
+#98FFFA
+#8BE89E
+#DFFF9E
+#E8D88B
+#FFE7C8
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+@keyframes switchImage {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.runSlides{
+    animation-name: switchImage;
+    animation-duration: 6s;
+}
+
+body{
+    background-color: #8BE89E;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-size: 4rem;  
+    color: #2C3828;
+}
+
+p{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 1.618rem;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+li{
+    background-color: #E8D88B;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+    margin-right: 0.25em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: inline-block;
+    font-size: 15pt;
+    border-radius: 0.15em;
+    color: #2C3828;
+}
+
+a:hover{
+    color:#6F9283;
+}
+
+a{
+    text-decoration: none;
+    color:#2C3828;
+}
+
+footer{
+    background-color: #DFFF9E;
+    margin-top: 1em;
+    padding: 1em;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+span:hover{
+    color: #3AB795; 
+    font-size: 1.3rem;
+}
+
+hr{
+    background-color: #2C3828;
+    margin-left: 7em;
+    margin-right: 7em;
+    height: 3px;
+    border-width: 0;
+    
+}
+
+.box{
+    font-family:'Alegreya Sans', sans-serif;
+}
+
+span{
+    font-family: sans-serif;
+}
+
+.buts{
+    background-color: #FFE7C8;
+}
+
+.buts:hover{
+     background-color: #DFFF9E;
+}
+
+figcaption{
+    text-align: left;
+    padding: 1em;
+}
+/*DESKTOP*/
+@media screen and (min-width: 60rem) and (max-width: 100rem) {
+     p{
+        font-size: 1.618rem;
+    }
+    
+    li{
+        margin-left: 10em;
+    }
+    
+    figcaption{
+        font-size: 1.618rem;
+    }
+}
+
+/*TABLET*/
+@media screen and (max-width: 60rem){
+     p{
+        font-size: 1rem;
+    }
+    
+    li{
+        margin-left: 2em;
+    }
+    
+    hr{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    
+    figcaption{
+        font-size: 1rem;
+    }
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 35rem){
+    p{
+        font-size: 0.7rem;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+    }
+    
+    li{
+        font-size: 10.0pt;
+        margin-left: 0;
+    }
+      
+    hr{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    figcaption{
+       font-size: 0.618rem;
+    }
+    
+}
+
